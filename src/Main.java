@@ -16,9 +16,9 @@ public class Main {
         float Weight1 = 78.2f;
         float Weight2 = 82.7f;
         float Weight3 = Weight1 + Weight2;
-        float Difference = Weight2 - Weight1;
+        float WeightDifference = Weight2 - Weight1;
         System.out.println("Общий вес боксеров " + Weight3 + " кг");
-        System.out.println("Разница между весом бойцов " + Difference + " кг");
+        System.out.println("Разница между весом бойцов " + WeightDifference + " кг");
 
         short bananaWeight = 80;
         short milkWeight = 105;
@@ -37,9 +37,11 @@ public class Main {
         int Days1 = 7000/250;
         int Days2 = 7000/500;
         int Days3 = (Days1+Days2)/2;
+        int TimeDifference = Days2 % Days1;
         System.out.println("При потере веса 250 г в день спорсмен похудеет за " + Days1 + " дней");
         System.out.println("При потере веса 500 г в день спорсмен похудеет за " + Days2 + " дней");
         System.out.println("В среднем ему потребуется " + Days3 + " дней");
+        System.out.println("Разница между диетами " + TimeDifference + " дней");
 
         int MashaSalary1 = 67_760;
         int DenisSalary1 = 83_690;
